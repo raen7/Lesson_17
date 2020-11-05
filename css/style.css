@@ -1112,6 +1112,27 @@ textarea {
   }
 }
 
+@media (max-width: 590px) {
+  .sale-item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+
+  .sale-item__column {
+    width: 100%;
+  }
+
+  .sale-item__title span {
+    text-shadow: 0 0 5px #000;
+  }
+
+  .sale-item__image {
+    margin: 10px 0px 20px 0px;
+  }
+}
+
 @media (max-width: 510px) {
   .btn {
     -webkit-box-flex: 1;
